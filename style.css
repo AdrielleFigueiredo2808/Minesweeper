@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #8A2BE2; 
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+  border: 10px solid rgb(0, 0, 0);
+  background-color: #FB0881;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board div {
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile-clicked {
+  background-color: rgb(255, 255, 255);
+}
+
+.x1 {
+  color: #FB0881;
+}
+
+.x2 {
+  color: #8A2BE2;
+}
+
+.x3 {
+  color: red;
+}
+
+.x4 {
+  color: rgb(1, 1, 255);
+}
+
+.x5 {
+  color: rgb(54, 1, 1);
+}
+
+.x6 {
+  color: rgb(0, 255, 255);
+}
+
+.x7 {
+  color: black;
+}
+
+.x8 {
+  color: #FB0881;
+}
+
+#flag-button {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  background-color: #000000;
+  border: none;
+}
